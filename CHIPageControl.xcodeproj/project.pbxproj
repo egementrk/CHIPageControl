@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22813DEE29D759640017CDFF /* CHIPageControlIsot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22813DED29D759640017CDFF /* CHIPageControlIsot.swift */; };
 		4313A7911E7A831E0015A568 /* CHIPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4313A78F1E7A831E0015A568 /* CHIPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4313A7E01E7A92320015A568 /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4313A7D41E7A92320015A568 /* CHIPageControlAji.swift */; };
 		4313A7E11E7A92320015A568 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4313A7D51E7A92320015A568 /* CHIPageControlAleppo.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22813DED29D759640017CDFF /* CHIPageControlIsot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHIPageControlIsot.swift; sourceTree = "<group>"; };
 		4313A78C1E7A831E0015A568 /* CHIPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4313A78F1E7A831E0015A568 /* CHIPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHIPageControl.h; sourceTree = "<group>"; };
 		4313A7901E7A831E0015A568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				4313A7D91E7A92320015A568 /* CHIPageControlJaloro.swift */,
 				4313A7DA1E7A92320015A568 /* CHIPageControlPaprika.swift */,
 				4313A7DB1E7A92320015A568 /* CHIPageControlPuya.swift */,
+				22813DED29D759640017CDFF /* CHIPageControlIsot.swift */,
 				4313A7DC1E7A92320015A568 /* Core */,
 				4313A7901E7A831E0015A568 /* Info.plist */,
 			);
@@ -207,6 +210,7 @@
 				4313A7E31E7A92320015A568 /* CHIPageControlFresno.swift in Sources */,
 				4313A7E21E7A92320015A568 /* CHIPageControlChimayo.swift in Sources */,
 				4313A7E41E7A92320015A568 /* CHIPageControlJalapeno.swift in Sources */,
+				22813DEE29D759640017CDFF /* CHIPageControlIsot.swift in Sources */,
 				4313A7E71E7A92320015A568 /* CHIPageControlPuya.swift in Sources */,
 				4313A7E81E7A92320015A568 /* CHIBasePageControl.swift in Sources */,
 				4313A7E11E7A92320015A568 /* CHIPageControlAleppo.swift in Sources */,
