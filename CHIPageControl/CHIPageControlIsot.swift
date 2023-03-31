@@ -94,8 +94,13 @@ open class CHIPageControlIsot: CHIBasePageControl {
         
         let offset: CGFloat = radius*0.55
         
-        let path = UIBezierPath(ovalIn: CGRect(x: leftX - offset, y: top - offset, width: 12, height: 12))
+        let path = UIBezierPath(ovalIn: CGRect(x: middleX - offset, y: top - offset, width: 12, height: 12))
+        
         path.move(to: points[0])
+        path.addCurve(to: points[1], controlPoint1: CGPoint(x:points[0].x, y: points[0].y-offset), controlPoint2: CGPoint(x:points[1].x-offset, y: points[1].y))
+        path.addCurve(to: points[2], controlPoint1: CGPoint(x:points[1].x+offset, y: points[1].y), controlPoint2: CGPoint(x:points[2].x, y: points[2].y-offset))
+        path.addCurve(to: points[3], controlPoint1: CGPoint(x:points[2].x, y: points[2].y+offset), controlPoint2: CGPoint(x:points[3].x+offset, y: points[3].y))
+        path.addCurve(to: points[0], controlPoint1: CGPoint(x:points[3].x-offset, y: points[3].y), controlPoint2: CGPoint(x:points[0].x, y: points[0].y+offset))
         self.active.path = path.cgPath
         
         if progress.truncatingRemainder(dividingBy: 1) == 0 {
